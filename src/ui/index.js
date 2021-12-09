@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import {Text} from 'ink';
-import {Greeter} from './components';
+import React from "react";
+import PropTypes from "prop-types";
+import { Color, Text } from "ink";
+import { Greeter } from "./components";
 
-const App = ({name}) => (
+const App = ({ name }) => (
 	<>
-		<Greeter name={name}/>
+		<Greeter name={name} />
 		<Text>
-		Thanks for using Ink!!
+			<Color green>Thanks for using Ink!!</Color>
 		</Text>
 	</>
 );
@@ -17,7 +17,7 @@ App.propTypes = {
 };
 
 App.defaultProps = {
-	name: 'Stranger'
+	name: "Stranger"
 };
 
 export default App;
