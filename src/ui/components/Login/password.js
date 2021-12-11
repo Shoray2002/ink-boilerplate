@@ -9,9 +9,8 @@ export default function Password({password, setPassword}) {
             value={password}
             onChange={setPassword}
             mask= "•"
-            onSubmit={() => {console.log(password)}}
+            onSubmit={() => {}}
             showCursor={false}
-
         />
         </Text>
     );

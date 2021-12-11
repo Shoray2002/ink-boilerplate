@@ -7,7 +7,7 @@ import App from './ui';
 
 const cli = meow(`
 	Usage
-	  $ branch-namer
+	  $ chatcli
 
 	Options
 		--name, -n  Your name
