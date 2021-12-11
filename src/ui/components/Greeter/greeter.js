@@ -1,13 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Text, Color} from 'ink';
+import Gradient from 'ink-gradient';
 
 export default function Greeter({name}) {
 	return (
-
+		<Gradient name="cristal">
 		<Text>
-			Hello, <Color green>{name}!</Color>
+			Hello,{name}!
+			Log-in
 		</Text>
+		</Gradient>
 	);
 }
 

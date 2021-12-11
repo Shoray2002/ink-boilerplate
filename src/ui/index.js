@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Color, Text } from "ink";
-import { Greeter } from "./components";
-
+import { Greeter,Login  } from "./components";
 const App = ({ name }) => (
 	<>
 		<Greeter name={name} />
-		<Text>
+		<Login />
+		{/* <Text>
 			<Color green>Thanks for using Ink!!</Color>
-		</Text>
+		</Text> */}
 	</>
 );
 

@@ -9,6 +9,7 @@
 		"node": ">=8"
 	},
 	"scripts": {
+		"quick": "npm run build && chatcli",
 		"build": "rm -rf lib && babel src/ -d lib/ --extensions '.js' --ignore '*test*','*mock*'",
 		"prepare": "npm run build",
 		"lint": "xo",
@@ -23,6 +24,8 @@
 	],
 	"dependencies": {
 		"ink": "^2.5.0",
+		"ink-gradient": "^1.0.0",
+		"ink-text-input": "^3.3.0",
 		"meow": "^5.0.0",
 		"prop-types": "^15.7.2",
 		"react": "^16.11.0"
